@@ -1,0 +1,13 @@
+
+RigidBody2D fizik;
+
+void Start(){
+
+fizik=GetComponent<RigidBody2D>();
+
+}
+
+void FixedUpdate(){
+
+	fizik=MovePosition(fizik.position+Vector2.up*hiz*Time.deltaTime);
+}

@@ -1,0 +1,3 @@
+çarpışma olduğunda durdurduğumuz yere birde çarpan maddeyi çarptığı maddenin içine atarsak madde birlikte hareket eder
+
+transform.SetParent(col.Transform);

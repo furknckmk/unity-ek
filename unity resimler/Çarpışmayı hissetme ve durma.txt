@@ -1,0 +1,11 @@
+bool hareketKontrol=true;
+
+Void OntriggerEnter2D (Collider2D Kenditanýmladýðýmýzcollider örneðin "col")
+{
+	if(col.tag=="çarpýlacak olan maddenin tagý"){
+
+	hareketKontrol=false;		
+
+
+}
+}

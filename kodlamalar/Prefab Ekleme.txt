@@ -1,0 +1,17 @@
+public GameObject prefabismi;
+void Update () 
+	{
+	\\mausa týklandýðýnda obje oluþsun	if (Input.GetButtonDown("Fire1"))
+		{
+			kucukCemberOlustur();
+		}
+
+
+
+void kucukCemberOlustur() { \\objenin yaratýlýþ kodu
+
+
+Instantiate(oluþacakobjeninprefabadý,objenin transform.position,objenin transform.rotationu);
+}
+
+
